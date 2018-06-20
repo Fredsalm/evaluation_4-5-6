@@ -20,6 +20,8 @@ Route::get('/', function () {
 Route::get('/','RoomController@list');
 Route::get('/room/{name}', 'RoomController@show');
 Route::get('/booking/{name}', 'BookingController@statut');
+Route::get('/booking', 'PostController@create'); 
+Route::post('/booking', 'PostController@save_data');
 // Route::get('/booking/{name}','BookingController@booking'); 
 // Route::get('/booking/{name}','BookingController@listcustomers'); 
 // Route::get('/booking/{name}', 'BookingController@show'); 

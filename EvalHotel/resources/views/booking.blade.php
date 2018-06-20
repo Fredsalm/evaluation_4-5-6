@@ -10,7 +10,7 @@
 	</div>	
 @endforeach
 
-<form method="post" class="container">
+<form method="POST" class="container">
 	<div class="form-group row justify-content-around" >
 
 		<label for="date-arrival">Arriver: </label>
@@ -43,6 +43,8 @@
 
 	</div>
 </form>
+
+
 
 
 @stop
